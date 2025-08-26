@@ -13,8 +13,8 @@ const oliveSvelte = await OliveSvelte();
 
 
 export default defineConfig({
-  site: 'https://rebolation.github.io',
-  base: '/olivecss.pages',
+  site: 'https://rebolation.github.io/olivecss.pages',
+  base: '/olivecss.pages/',
   integrations: [
     react({
       babel: {
